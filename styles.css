@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-container {
+  background-image: url('./images/bg-hero-desktop.svg');
+  background-size: cover;
+  background-color: hsl(193, 100%, 96%);
+}
+
+.header-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.header-logo {
+  width: 300px;
+}
