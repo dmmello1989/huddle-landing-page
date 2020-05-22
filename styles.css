@@ -85,6 +85,7 @@ header {
 
 .header-text {
   margin-right: 45px;
+  color: hsl(192, 100%, 9%);
 }
 
 .header-text h1 {
@@ -198,11 +199,109 @@ footer {
 
 /* Media Query */
 @media (max-width: 767px) {
+  /* General Styles */
   body {
     text-align: center;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 15px;
   }
   
   .flex {
     flex-direction: column;
+  }
+
+  .btn {
+    padding: 10px 35px;
+  }
+
+  .btn-primary {
+    padding: 20px 90px;
+  }
+
+  /* Header Section */
+  header {
+    background-image: url('./images/bg-hero-desktop.svg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 40px;
+  }
+  
+  .header-nav {
+    padding: 50px 0 140px;
+  }
+  
+  .header-logo {
+    width: 135px;
+  }
+
+  .header-text {
+    margin-right: 0;
+  }
+
+  .header-text p {
+    font-size: 21px;
+    margin-bottom: 55px;
+  }
+
+  .header-text button {
+    margin-bottom: 80px;
+  }
+
+  /* Main Section */
+  main {
+    margin-top: 80px;
+  }
+
+  .box {
+    padding: 50px 60px;
+  }
+
+  .box-center {
+    padding: 50px 40px;
+  }
+
+  .box.box-center h2 {
+    font-size: 1em;
+  }
+
+  .box.box-center .btn-primary {
+    padding: 15px 50px;
+    font-size: 0.7em;
+  }
+
+  .box.flex {
+    flex-direction: column-reverse;
+  }
+
+  .box.flex:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .box-text {
+    text-align: center;
+  }
+
+  .box-image {
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  /* Footer Section */
+  footer {
+    padding: 135px 15px 50px 15px;
+    text-align: left;
+  }
+
+  .footer-socials {
+    align-self: center;
+  }
+
+  .small-text {
+    margin-top: 30px;
+    text-align: center;
   }
 }
